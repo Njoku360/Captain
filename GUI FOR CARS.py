@@ -69,7 +69,7 @@ class CarOrderApp:
 
         car1_order_button = tk.Button(self.application, text="ORDER NOW", command=lambda: self.order_car("toyota-4422348_1280.jpg", "TOYOTA CAMRY"), font=("Arial", 18, "bold"), bg="purple3")
         car1_order_button.place(x=100, y=320)
-
+        # love all this
         car2_image_label = tk.Label(self.application, image=honda_civic_photo)
         car2_image_label.image = honda_civic_photo
         car2_image_label.place(x=900, y=100)
